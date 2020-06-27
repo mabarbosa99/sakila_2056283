@@ -24,7 +24,7 @@
             <label class="col-md-4 control-label" for="nombre">Nombre de Categoría </label>  
             <div class="col-md-4">
             <input id="nombre" name="nombre" value="{{$categoria->name}}" type="text" placeholder="Ingrese la categoría " class="form-control input-md">
-            <strong class="text-danger">{{ $errors->first('nombre')}}</strong>  
+            
             </div>
             </div>
             
